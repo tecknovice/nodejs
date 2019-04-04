@@ -1,2 +1,6 @@
-#install node, npm
-$node api.js
+# install node, npm
+```
+  cd justifiedLayoutDemo
+  npm install
+  node app.js
+```
