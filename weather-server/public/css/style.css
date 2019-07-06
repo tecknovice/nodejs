@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    max-width: 1000px;
+    max-width: 600px;
     margin: auto;
 
     color: #AAA;
@@ -50,4 +50,25 @@ a{
 }
 a:hover{
     color: #444;
+}
+input, button{
+    height: 50px;
+    padding: 0 20px;
+    border: 1px solid #444;
+    font-size: 1rem;
+    margin-bottom: 50px;
+}
+input{
+    width: 200px;
+    color: #444;
+}
+button{
+    width: 100px;
+    background-color: #444;
+    color: #fff;
+}
+#result{
+    color: #444;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
 }

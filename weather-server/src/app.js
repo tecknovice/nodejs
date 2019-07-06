@@ -2,6 +2,9 @@ const express = require('express')
 const path = require('path')
 const hbs = require('hbs')
 
+const geocode = require('./utils/geocode')
+const forecast = require('./utils/forecast')
+
 const app = express()
 
 //define path for express config
@@ -40,22 +43,45 @@ app.get('/help', (req, res) => {
 })
 
 app.get('/weather', (req, res) => {
+    if (!req.query.address) {
+        return res.send({
+            error: 'you must provide an address'
+        })
+    }
+    geocode(req.query.address, (error, { long, lat, place } = {}) => {
+        if (error) {
+            return res.send({ error })
+        }
+        forecast(long, lat, (error, data) => {
+            if (error) {
+                return res.send({ error })
+            }
+            res.send({
+                place,
+                forecast: `The weather is currently ${data.summary}. Temp is ${data.temperature} celcius and Precipitation prob is ${data.precipProbability}`
+            })
+        })
+    })
+
+})
+
+app.get('/products', (req, res) => {
+    console.log(req.query)
     res.send({
-        location: 'Hanoi',
-        forecast: 'Cloudy and Rainy'
+        product: []
     })
 })
 
-app.get('/help/*',(req,res)=>{
-    res.render('404',{
-        title:'help article not found',
+app.get('/help/*', (req, res) => {
+    res.render('404', {
+        title: 'help article not found',
         name: 'Hung'
     })
 })
 
 app.get('*', (req, res) => {
-    res.render('404',{
-        title:'404 not found',
+    res.render('404', {
+        title: '404 not found',
         name: 'Hung'
     })
 })
