@@ -1,0 +1,25 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "- yargs - chalk - nodemon - request -",
+  "main": "index.js",
+  "scripts": {
+    "start":"node weather-server/src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tecknovice/nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tecknovice/nodejs/issues"
+  },
+  "homepage": "https://github.com/tecknovice/nodejs#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "hbs": "^4.0.1",
+    "request": "^2.88.0"
+  }
+}
