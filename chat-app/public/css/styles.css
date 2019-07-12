@@ -1,0 +1,61 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+input {
+    font-size: 14px;
+}
+
+body {
+    line-height: 1.4;
+    color: #333333;
+    background-color: #444;
+    font-family: Helvetica, Arial, sans-serif;
+    display: flex;
+    height: 100vh;
+}
+
+h1 {
+    margin-bottom: 16px;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #777;
+}
+
+input[type="text"] {
+    border: 1px solid #eeeeee;
+    padding: 12px;
+    outline: none;
+    flex-grow: 1;
+}
+
+button,input[type="submit"] {
+    cursor: pointer;
+    padding: 12px;
+    background: #7C5CBF;
+    border: none;
+    color: white;
+    font-size: 16px;
+    transition: background .3s ease;
+    margin-left: 2rem;
+}
+
+button:hover,input[type="submit"]:hover {
+    background: #6b47b8;
+}
+
+button:disabled, input[type="submit"]:disabled {
+    cursor: default;
+    background: #7c5cbf94;
+}

@@ -1,0 +1,16 @@
+main{
+    width: 320px;
+    margin: auto;
+    background-color: #FFF;
+    padding: 20px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+input[type="text"]{
+    margin-bottom: 1rem;
+}
+input[type="submit"]{
+    margin-left: 0;
+}

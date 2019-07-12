@@ -1,0 +1,36 @@
+aside{
+    flex: 1;
+    background-color: #444;
+}
+main{
+    flex: 4;
+    background-color: #EEE;
+}
+#fake-main{
+    height: 100%;
+    margin: 0 1rem;
+    padding: 1rem;
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+}
+#messages{
+    flex-grow: 1;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+#actions{
+    display: flex;
+    margin-top: 2rem;
+}
+form{
+    display: flex;
+    flex-grow: 1;
+}
+.message > span:nth-child(1){
+    font-weight: bold;
+}
+.message > span:nth-child(2){
+    font-weight:lighter;
+    margin-left: 2rem;
+}
