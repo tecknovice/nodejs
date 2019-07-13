@@ -1,22 +1,20 @@
 {
-  "name": "chat-app",
+  "name": "nodejs",
   "version": "1.0.0",
-  "description": "",
+  "description": "- yargs - chalk - nodemon - request - validator - bcryptjs - jsonwebtoken - multer - sharp - env-cmd # Framework - express - mongodb - mongoose he",
   "main": "index.js",
   "scripts": {
-    "start": "node chat-app/src/app.js",
-    "dev": "env-cmd -f config/dev.env nodemon src/app.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tecknovice/nodejs.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "bad-words": "^3.0.2",
-    "env-cmd": "^9.0.3",
-    "express": "^4.17.1",
-    "socket.io": "^2.2.0"
+  "bugs": {
+    "url": "https://github.com/tecknovice/nodejs/issues"
   },
-  "devDependencies": {
-    "nodemon": "^1.19.1"
-  }
+  "homepage": "https://github.com/tecknovice/nodejs#readme"
 }
