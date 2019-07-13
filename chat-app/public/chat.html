@@ -17,7 +17,7 @@
             <div id="messages"> </div>
             <div id="actions">
                 <form>
-                    <input type="text" placeholder="message" />
+                    <input type="text" placeholder="message" required />
                     <input type="submit" value="Send" />
                 </form>
                 <button>Send location</button>
@@ -26,7 +26,7 @@
     </main>
     <script id="message-template" type="text/html">
         <div class="message">
-            <span>Some User Name</span>
+            <span>{{name}}</span>
             <span>{{createdAt}}</span>
             <div>{{message}}</div>
         </div>
@@ -34,12 +34,22 @@
 
     <script id="location-template" type="text/html">
         <div class="message">
-            <span>Some User Name</span>
+            <span>{{name}}</span>
             <span>{{createdAt}}</span>
             <div>
                 <a href="{{url}}" target="_blank">My current location</a>
             </div>
         </div>
+    </script>
+
+    <script id="aside-template" type="text/html">
+        <h2>Room: {{room}}</h2>
+        <h3>Users:</h3>
+        <ul>
+            {{#users}}
+            <li>{{name}}</li>
+            {{/users}}
+        </ul>
     </script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/3.0.1/mustache.min.js"></script>

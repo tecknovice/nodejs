@@ -5,21 +5,70 @@ const inputText = document.querySelector('input[type="text"]')
 const inputSubmit = document.querySelector('input[type="submit"]')
 const button = document.querySelector('button')
 const messages = document.querySelector('#messages')
+const aside = document.querySelector('aside')
 //Templates
 const messageTemplate = document.querySelector('#message-template').innerHTML
 const locationTemplate = document.querySelector('#location-template').innerHTML
+const asideTemplate = document.querySelector('#aside-template').innerHTML
 //Options
 const { name, room } = Qs.parse(location.search, { ignoreQueryPrefix: true })
-console.log({ name, room })
 
-socket.on('message', ({ message, createdAt }) => {
-    console.log({ message, createdAt })
-    const html = Mustache.render(messageTemplate, { message, createdAt: moment(createdAt).format('hh:mm a') })
+const dm = () =>{
+    //new mesg element
+    const newMesg = messages.lastElementChild
+    //Height of the last mesg
+    const newMesgStyle = getComputedStyle(newMesg)
+    const newMesgMargin = parseInt(newMesgStyle.marginBottom)
+    const newMesgHeight = newMesg.offsetHeight + newMesgMargin
+    console.log(newMesgHeight);
+    //visible height
+    const visibleHeight = messages.offsetHeight
+    //height of messages container
+    const containerHeight = messages.scrollHeight
+    //how far have I scrolled
+    const scrollOffset = messages.scrollTop + visibleHeight
+
+    if(containerHeight - newMesgHeight <=scrollOffset){
+        messages.scrollTop=messages.scrollHeight
+    }
+}
+
+const autoScroll = () => {
+    // New message element
+    const newMessage = messages.lastElementChild
+
+    // Height of the new message
+    const newMessageStyles = getComputedStyle(newMessage)
+    const newMessageMargin = parseInt(newMessageStyles.marginBottom)
+    const newMessageHeight = newMessage.offsetHeight + newMessageMargin
+
+    // Visible height
+    const visibleHeight = messages.offsetHeight
+
+    // Height of messages container
+    const containerHeight = messages.scrollHeight
+
+    // How far have I scrolled?
+    const scrollOffset = messages.scrollTop + visibleHeight
+
+    if (containerHeight - newMessageHeight <= scrollOffset) {
+        messages.scrollTop = messages.scrollHeight
+    }
+}
+
+socket.on('message', ({ name, message, createdAt }) => {
+    const html = Mustache.render(messageTemplate, { name, message, createdAt: moment(createdAt).format('hh:mm a') })
     messages.insertAdjacentHTML('beforeend', html)
+    autoScroll()
 })
-socket.on('location', ({ url, createdAt }) => {
-    const html = Mustache.render(locationTemplate, { url, createdAt: moment(createdAt).format('hh:mm a') })
+socket.on('location', ({ name, url, createdAt }) => {
+    const html = Mustache.render(locationTemplate, { name, url, createdAt: moment(createdAt).format('hh:mm a') })
     messages.insertAdjacentHTML('beforeend', html)
+    autoScroll()
+})
+socket.on('room', ({ room, users }) => {
+    const html = Mustache.render(asideTemplate, { room, users })
+    aside.innerHTML = html
 })
 
 form.addEventListener('submit', event => {
@@ -55,4 +104,9 @@ button.addEventListener('click', () => {
     )
 })
 
-socket.emit('join', { name, room })
+socket.emit('join', { name, room }, error => {
+    if (error) {
+        alert(error)
+        location.href = '/'
+    }
+})

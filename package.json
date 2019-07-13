@@ -1,27 +1,22 @@
 {
-  "name": "task-manager",
+  "name": "chat-app",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node task-manager/src/index.js"
+    "start": "node chat-app/src/app.js",
+    "dev": "env-cmd -f config/dev.env nodemon src/app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@sendgrid/mail": "^6.4.0",
-    "bcryptjs": "^2.4.3",
+    "bad-words": "^3.0.2",
+    "env-cmd": "^9.0.3",
     "express": "^4.17.1",
-    "jsonwebtoken": "^8.5.1",
-    "mongodb": "^3.2.7",
-    "mongoose": "^5.6.3",
-    "multer": "^1.4.1",
-    "sharp": "^0.22.1",
-    "validator": "^11.1.0"
+    "socket.io": "^2.2.0"
   },
   "devDependencies": {
-    "env-cmd": "^9.0.3",
     "nodemon": "^1.19.1"
   }
 }

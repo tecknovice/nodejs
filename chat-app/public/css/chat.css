@@ -1,6 +1,9 @@
 aside{
     flex: 1;
     background-color: #444;
+    color: #FFF;
+    padding: 1rem 2rem;
+    text-transform: capitalize;
 }
 main{
     flex: 4;
@@ -27,6 +30,9 @@ form{
     display: flex;
     flex-grow: 1;
 }
+ul {
+    list-style-type: none;
+  }
 .message > span:nth-child(1){
     font-weight: bold;
 }
