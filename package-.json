@@ -1,0 +1,20 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "- yargs - chalk - nodemon - request - validator - bcryptjs - jsonwebtoken - multer - sharp - env-cmd # Framework - express - mongodb - mongoose he",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tecknovice/nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tecknovice/nodejs/issues"
+  },
+  "homepage": "https://github.com/tecknovice/nodejs#readme"
+}
