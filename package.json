@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "env-cmd -f config/prod.env node CRUD/src/server.js",
+    "start": "node CRUD/src/server.js",
     "dev": "env-cmd -f config/dev.env nodemon src/server.js",
     "debug": "env-cmd -f config/dev.env nodemon inspect src/server.js"
   },
