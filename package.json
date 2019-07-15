@@ -1,22 +1,20 @@
 {
-  "name": "crud",
+  "name": "nodejs",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
+  "description": "- yargs - chalk - nodemon - request - validator - bcryptjs - jsonwebtoken - multer - sharp - env-cmd # Framework - express - mongodb - mongoose he",
+  "main": "index.js",
   "scripts": {
-    "start": "node CRUD/src/server.js",
-    "dev": "env-cmd -f config/dev.env nodemon src/server.js",
-    "debug": "env-cmd -f config/dev.env nodemon inspect src/server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tecknovice/nodejs.git"
+  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1",
-    "mongodb": "^3.2.7",
-    "mongoose": "^5.6.4"
+  "bugs": {
+    "url": "https://github.com/tecknovice/nodejs/issues"
   },
-  "devDependencies": {
-    "env-cmd": "^9.0.3",
-    "nodemon": "^1.19.1"
-  }
+  "homepage": "https://github.com/tecknovice/nodejs#readme"
 }
