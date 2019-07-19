@@ -1,0 +1,37 @@
+aside.main-sidebar
+	section.sidebar
+		.user-panel
+			.pull-left.image
+				img.img-circle(src='/adminlte/dist/img/user2-160x160.jpg', alt='User Image')
+			.pull-left.info
+				p Alexander Pierce
+				a(href='#')
+					i.fa.fa-circle.text-success
+					|  Online
+		form.sidebar-form(action='#', method='get')
+			.input-group
+				input.form-control(type='text', name='q', placeholder='Search...')
+				span.input-group-btn
+					button#search-btn.btn.btn-flat(type='submit', name='search')
+						i.fa.fa-search
+		ul.sidebar-menu(data-widget='tree')
+			li.header HEADER
+			li.active
+				a(href='#')
+					i.fa.fa-link
+					span Link
+			li
+				a(href='#')
+					i.fa.fa-link
+					span Another Link
+			li.treeview
+				a(href='#')
+					i.fa.fa-link
+					span Multilevel
+					span.pull-right-container
+						i.fa.fa-angle-left.pull-right
+				ul.treeview-menu
+					li
+						a(href='#') Link in level 2
+					li
+						a(href='#') Link in level 2
