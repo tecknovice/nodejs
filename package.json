@@ -1,20 +1,26 @@
 {
-  "name": "nodejs",
-  "version": "1.0.0",
-  "description": "- yargs - chalk - nodemon - request - validator - bcryptjs - jsonwebtoken - multer - sharp - env-cmd # Framework - express - mongodb - mongoose he",
-  "main": "index.js",
+  "name": "local-library",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node local-library/bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/tecknovice/nodejs.git"
+  "dependencies": {
+    "async": "^3.1.0",
+    "compression": "^1.7.4",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "express-validator": "^6.1.1",
+    "helmet": "^3.19.0",
+    "http-errors": "~1.6.3",
+    "moment": "^2.24.0",
+    "mongoose": "^5.6.5",
+    "morgan": "~1.9.1",
+    "pug": "2.0.0-beta11"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/tecknovice/nodejs/issues"
-  },
-  "homepage": "https://github.com/tecknovice/nodejs#readme"
+  "devDependencies": {
+    "env-cmd": "^9.0.3",
+    "nodemon": "^1.19.1"
+  }
 }
