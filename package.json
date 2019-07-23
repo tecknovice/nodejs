@@ -6,8 +6,7 @@
   },
   "private": true,
   "scripts": {
-    "start": "node local-library/bin/www",
-    "dev": "env-cmd -f local-library/config/dev.env nodemon local-library/bin/www"
+    "start": "node local-library/bin/www"
   },
   "dependencies": {
     "async": "^3.1.0",
