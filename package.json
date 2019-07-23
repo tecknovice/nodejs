@@ -1,6 +1,9 @@
 {
   "name": "local-library",
   "version": "0.0.0",
+  "engines": {
+    "node": "12.5.0"
+  },
   "private": true,
   "scripts": {
     "start": "node local-library/bin/www",
