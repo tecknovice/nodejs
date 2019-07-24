@@ -1,0 +1,36 @@
+{
+  "name": "facebook-chatbot",
+  "version": "1.0.0",
+  "description": "Get started example for Messenger Platform",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "lint": "jshint --exclude node_modules .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fbsamples/messenger-platform-samples.git"
+  },
+  "author": "Facebook",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "config": "^1.20.4",
+    "ejs": "^2.4.2",
+    "express": "^4.13.4",
+    "google-translate": "^2.0.4",
+    "request": "^2.72.0"
+  },
+  "engines": {
+    "node": "~4.1.2"
+  },
+  "bugs": {
+    "url": "https://github.com/fbsamples/messenger-platform-samples/issues"
+  },
+  "homepage": "https://github.com/fbsamples/messenger-platform-samples#readme",
+  "devDependencies": {},
+  "keywords": [
+    "chatbot"
+  ]
+}
