@@ -5,8 +5,8 @@
   "main": "server.js",
   "scripts": {
     "start": "node src/server.js",
-    "dev": "env-cmd -f config/dev.env nodemon src/server.js",
-    "debug": "env-cmd -f config/dev.env nodemon inspect src/server.js"
+    "dev": "env-cmd -f config/prod.env nodemon src/server.js",
+    "debug": "env-cmd -f config/prod.env nodemon inspect src/server.js"
   },
   "author": "",
   "license": "ISC",
