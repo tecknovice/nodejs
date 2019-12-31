@@ -16,5 +16,13 @@
   "CoffeeShop": {
     "dataSource": "mysqlDs",
     "public": true
+  },
+  "Review": {
+    "dataSource": "mongoDs",
+    "public": true
+  },
+  "Reviewer": {
+    "dataSource": "mongoDs",
+    "public": true
   }
 }
