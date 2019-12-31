@@ -21,6 +21,11 @@
       "type": "hasMany",
       "model": "Review",
       "foreignKey": ""
+    },
+    "reviewers": {
+      "type": "hasMany",
+      "model": "Reviewer",
+      "foreignKey": ""
     }
   },
   "acls": [],
