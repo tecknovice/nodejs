@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mysqlDs": {
+    "host": "localhost",
+    "port": 3306,
+    "url": "mysql://root:password@localhost/lb3_getting_started",
+    "database": "lb3_getting_started",
+    "password": "password",
+    "name": "mysqlDs",
+    "user": "root",
+    "connector": "mysql"
+  }
+}
