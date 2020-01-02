@@ -1,0 +1,13 @@
+{
+  "mongoDS": {
+    "host": "localhost",
+    "port": 27017,
+    "url": "",
+    "database": "lb3_demo",
+    "password": "",
+    "name": "mongoDS",
+    "user": "",
+    "useNewUrlParser": true,
+    "connector": "mongodb"
+  }
+}
