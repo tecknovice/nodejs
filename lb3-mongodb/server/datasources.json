@@ -1,0 +1,13 @@
+{
+  "accountDS": {
+    "host": "192.168.0.203",
+    "port": 27017,
+    "url": "",
+    "database": "demo",
+    "password": "password",
+    "name": "accountDS",
+    "user": "newdemo",
+    "useNewUrlParser": true,
+    "connector": "mongodb"
+  }
+}
