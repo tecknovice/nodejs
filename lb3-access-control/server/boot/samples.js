@@ -67,7 +67,7 @@ module.exports = function(app) {
         }
       );
 
-      //create the admin role
+      //define static role "admin"
       Role.create(
         {
           name: "admin"
