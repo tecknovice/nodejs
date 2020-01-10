@@ -13,6 +13,18 @@
       "./mixins"
     ]
   },
+  "User":{
+    "dataSource": "mongoDs",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "mongoDs",
+    "public": false
+  },
+  "AccessToken":{
+    "dataSource": "mongoDs",
+    "public": false
+  },
   "CoffeeShop": {
     "dataSource": "mysqlDs",
     "public": true
