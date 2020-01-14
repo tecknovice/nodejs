@@ -14,43 +14,43 @@
     ]
   },
   "Customer": {
-    "dataSource": "db",
+    "dataSource": "mongoDS",
     "public": true
   },
   "Order": {
-    "dataSource": "db",
+    "dataSource": "mongoDS",
     "public": true
   },
   "Account": {
-    "dataSource": "db",
+    "dataSource": "mongoDS",
     "public": true
   },
   "Address": {
     "dataSource": "transient",
-    "public": false
+    "public": true
   },
   "Author": {
-    "dataSource": "db",
-    "public": false
+    "dataSource": "mongoDS",
+    "public": true
   },
   "Book": {
-    "dataSource": "db",
+    "dataSource": "mongoDS",
     "public": true
   },
   "EmailAddress": {
     "dataSource": "transient",
-    "public": false
+    "public": true
   },
   "Link": {
     "dataSource": "transient",
-    "public": false
+    "public": true
   },
   "Reader": {
-    "dataSource": "db",
-    "public": false
+    "dataSource": "mongoDS",
+    "public": true
   },
   "Shipment": {
-    "dataSource": "db",
-    "public": false
+    "dataSource": "mongoDS",
+    "public": true
   }
 }

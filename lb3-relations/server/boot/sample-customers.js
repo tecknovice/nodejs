@@ -9,7 +9,7 @@ module.exports = function(app) {
 
   // define a custom scope
   Customer.scope('youngFolks', {where: {age: {lte: 22 }}});
-  app.dataSources.db.automigrate('Customer', function(err) {
+  app.dataSources.mongoDS.automigrate('Customer', function(err) {
     if (err) throw err;
 
     var customers = [
