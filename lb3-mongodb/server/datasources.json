@@ -6,7 +6,7 @@
     "database": "demo",
     "password": "password",
     "name": "accountDS",
-    "user": "newdemo",
+    "user": "demo",
     "useNewUrlParser": true,
     "connector": "mongodb"
   }
