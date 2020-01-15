@@ -16,8 +16,7 @@ module.exports = function(app) {
       {name: 'Customer A', age: 21},
       {name: 'Customer B', age: 22},
       {name: 'Customer C', age: 23},
-      {name: 'Customer D', age: 24},
-      {age: 25}
+      {name: 'Customer D', age: 24}
       ];
     var orders = [
       {
