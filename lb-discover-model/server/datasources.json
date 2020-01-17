@@ -1,0 +1,37 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mysqlDS": {
+    "host": "192.168.0.203",
+    "port": 3306,
+    "url": "",
+    "database": "testdb",
+    "password": "Admin@123",
+    "name": "mysqlDS",
+    "user": "admin",
+    "connector": "mysql"
+  },
+  "mysqlLocal": {
+    "host": "localhost",
+    "port": 3306,
+    "url": "",
+    "database": "testdb",
+    "password": "password",
+    "name": "mysqlLocal",
+    "user": "user",
+    "connector": "mysql"
+  },
+  "mongoDS": {
+    "host": "192.168.0.203",
+    "port": 27017,
+    "url": "",
+    "database": "testdb",
+    "password": "password",
+    "name": "mongoDS",
+    "user": "user",
+    "useNewUrlParser": true,
+    "connector": "mongodb"
+  }
+}
