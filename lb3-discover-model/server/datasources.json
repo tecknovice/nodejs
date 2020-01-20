@@ -1,16 +1,27 @@
 {
-    "db": {
-      "name": "db",
-      "connector": "memory"
-    },
-    "mysqlDS": {
-      "host": "192.168.0.203",
-      "port": 3306,
-      "url": "",
-      "database": "bmlchatbot",
-      "password": "Admin@123",
-      "name": "mysqlDS",
-      "user": "admin",
-      "connector": "mysql"
-    }
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mysqlDS": {
+    "host": "192.168.0.203",
+    "port": 3306,
+    "url": "",
+    "database": "bmlchatbot",
+    "password": "Admin@123",
+    "name": "mysqlDS",
+    "user": "admin",
+    "connector": "mysql"
+  },
+  "mongoDS": {
+    "host": "192.168.0.203",
+    "port": 27017,
+    "url": "",
+    "database": "bmlchatbot",
+    "password": "password",
+    "name": "mongoDS",
+    "user": "user",
+    "useNewUrlParser": true,
+    "connector": "mongodb"
   }
+}

@@ -14,47 +14,47 @@
     ]
   },
   "Claims": {
-    "dataSource": "mysqlDS",
+    "dataSource": "mongoDS",
     "public": true
   },
   "Contract": {
-    "dataSource": "mysqlDS",
+    "dataSource": "mongoDS",
     "public": true
   },
   "ConversationBackups": {
-    "dataSource": "mysqlDS",
+    "dataSource": "mongoDS",
     "public": true
   },
   "Conversations": {
-    "dataSource": "mysqlDS",
+    "dataSource": "mongoDS",
     "public": true
   },
   "Customers": {
-    "dataSource": "mysqlDS",
+    "dataSource": "mongoDS",
     "public": true
   },
   "Enquiries": {
-    "dataSource": "mysqlDS",
+    "dataSource": "mongoDS",
     "public": true
   },
   "Enquiry": {
-    "dataSource": "mysqlDS",
+    "dataSource": "mongoDS",
     "public": true
   },
   "Interactions": {
-    "dataSource": "mysqlDS",
+    "dataSource": "mongoDS",
     "public": true
   },
   "Steps": {
-    "dataSource": "mysqlDS",
+    "dataSource": "mongoDS",
     "public": true
   },
   "TopicMap": {
-    "dataSource": "mysqlDS",
+    "dataSource": "mongoDS",
     "public": true
   },
   "UnknownMessages": {
-    "dataSource": "mysqlDS",
+    "dataSource": "mongoDS",
     "public": true
   }
 }

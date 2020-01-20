@@ -17,11 +17,11 @@
   "properties": {
     "id": {
       "type": "String",
+      "id": 1,
       "required": true,
       "length": 100,
       "precision": null,
       "scale": null,
-      "id": 1,
       "mysql": {
         "columnName": "id",
         "dataType": "varchar",
@@ -211,5 +211,9 @@
         "nullable": "Y"
       }
     }
-  }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
 }
