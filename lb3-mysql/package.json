@@ -1,5 +1,5 @@
 {
-  "name": "lb-discover-model",
+  "name": "lb3-mysql",
   "version": "1.0.0",
   "main": "server/server.js",
   "engines": {
@@ -31,5 +31,5 @@
     "url": ""
   },
   "license": "UNLICENSED",
-  "description": "lb-discover-model"
+  "description": "lb3-mysql"
 }
