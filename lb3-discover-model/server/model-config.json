@@ -12,5 +12,49 @@
       "../common/mixins",
       "./mixins"
     ]
+  },
+  "Claims": {
+    "dataSource": "mysqlDS",
+    "public": true
+  },
+  "Contract": {
+    "dataSource": "mysqlDS",
+    "public": true
+  },
+  "ConversationBackups": {
+    "dataSource": "mysqlDS",
+    "public": true
+  },
+  "Conversations": {
+    "dataSource": "mysqlDS",
+    "public": true
+  },
+  "Customers": {
+    "dataSource": "mysqlDS",
+    "public": true
+  },
+  "Enquiries": {
+    "dataSource": "mysqlDS",
+    "public": true
+  },
+  "Enquiry": {
+    "dataSource": "mysqlDS",
+    "public": true
+  },
+  "Interactions": {
+    "dataSource": "mysqlDS",
+    "public": true
+  },
+  "Steps": {
+    "dataSource": "mysqlDS",
+    "public": true
+  },
+  "TopicMap": {
+    "dataSource": "mysqlDS",
+    "public": true
+  },
+  "UnknownMessages": {
+    "dataSource": "mysqlDS",
+    "public": true
   }
 }
