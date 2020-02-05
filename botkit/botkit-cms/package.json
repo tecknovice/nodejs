@@ -1,0 +1,49 @@
+{
+  "name": "botkit-cms",
+  "version": "0.0.3",
+  "description": "an open tool for designing, building and managing interactive dialog systems",
+  "license": "MIT",
+  "keywords": [
+    "bots",
+    "dialog editor",
+    "content management",
+    "botkit",
+    "chatbots",
+    "bot"
+  ],
+  "homepage": "https://github.com/howdyai/botkit-cms",
+  "main": "src/api.js",
+  "author": "benbrown@gmail.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/howdyai/botkit-cms.git"
+  },
+  "bugs": {
+    "url": "https://github.com/howdyai/botkit-cms/issues"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "build": "./node_modules/gulp/bin/gulp.js",
+    "gulp": "./node_modules/gulp/bin/gulp.js",
+    "eslint": "./node_modules/eslint/bin/eslint.js js/ src/ components/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "async": "^2.6.1",
+    "body-parser": "^1.17.2",
+    "debug": "^2.6.8",
+    "dotenv": "^6.0.0",
+    "express": "^4.15.3",
+    "express-basic-auth": "^1.1.5",
+    "express-hbs": "^1.0.4",
+    "querystring": "^0.2.0",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.7.0",
+    "gulp": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-util": "^3.0.7"
+  }
+}
