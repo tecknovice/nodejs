@@ -27,7 +27,7 @@ fs.createReadStream("csv/faq/faq_answer.csv")
     // console.log(answers);
   });
 
-  
+ console.log(intents, questions, answers);
 
 const mixin = [];
 for (let index = 0; index < intents.length; index++) {
