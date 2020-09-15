@@ -1,0 +1,85 @@
+id|intent
+200|Cách giải quyết khi công ty bị thua lỗ
+201|Bảo hiểm khi có lạm phát
+202|Bảo hiểm bên BIC và Metlife khác nhau
+203|Tại sao phải đi khám sức khoẻ
+204|Chỉ định người thụ hưởng
+205|Bảo hiểm tử kỳ
+206|Bổ trợ tai nạn tăng cường
+220|Bảo hiểm
+221|Doanh nghiệp bảo hiểm
+222|Đại lý bảo hiểm
+1|bên mua bảo hiểm
+2|người được bảo hiểm
+3|tuổi tối đa khi kết thúc hợp đồng
+4|người thụ hưởng
+5|tuổi tính thế nào
+6|Thời hạn bảo hiểm
+7|Thời hạn hợp đồng
+8|Năm hợp đồng
+9|Số tiền bảo hiểm
+10|Phí bảo hiểm định kỳ
+11|Thời hạn đóng phí
+12|Ngày đến hạn đóng phí
+13|Thời gian gia hạn đóng phí bảo hiểm
+14|Khôi phục hiệu lực hợp đồng
+15|Ngày hiệu lực của Hợp đồng
+16|Ngày kỷ niệm hợp đồng
+17|Thương tật toàn bộ vĩnh viễn
+18|Hợp đồng bảo hiểm
+19|Hồ sơ yêu cầu bảo hiểm
+20|Giấy chứng nhận bảo hiểm
+21|Bảng minh họa quyền lợi
+22|Thời gian cân nhắc
+23|Thời hạn bảo hiểm tạm thời
+24|Quyền lợi bảo hiểm tạm thời
+25|Loại trừ đối với bảo hiểm tạm thời
+26|Bảo hiểm tạm thời chấm dứt
+27|Quyền lợi bảo hiểm tử vong
+28|Quyền lợi bảo hiểm thương tật toàn bộ vĩnh viễn
+29|Loại trừ đối với sự kiện tử vong
+30|Loại trừ đối với sự kiện Thương tật toàn bộ vĩnh viễn
+31|Thay đổi số tiền bảo hiểm
+31|Tăng số tiền bảo hiểm
+31|Giảm số tiền bảo hiểm
+32|Thay đổi nghề nghiệp
+32|Thay đổi nơi cư trú
+32|Ra khỏi việt nam
+33|Thay đổi người thụ hưởng
+34|Chuyển nhượng hợp đồng bảo hiểm
+35|Thay đổi trong trường hợp Bên mua bảo hiểm là cá nhân bị tử vong
+36|Thay đổi trong trường hợp Bên mua bảo hiểm là tổ chức bị giải thể
+36|Thay đổi trong trường hợp Bên mua bảo hiểm là tổ chức bị phá sản
+37|Thời hạn yêu cầu giải quyết quyền lợi bảo hiểm
+38|Hồ sơ yêu cầu giải quyết quyền lợi bảo hiểm
+39|Nhận quyền lợi hợp đồng bảo hiểm
+40|Nghĩa vụ chứng minh
+41|Thời gian giải quyết quyền lợi bảo hiểm
+42|Kê khai cung cấp và bảo mật thông tin
+43|Miễn truy xét
+44|Giải quyết tranh chấp
+51|Giải quyết bảo hiểm rủi ro sau khi đã tham gia bảo hiểm chưa có hợp đồng
+52|Số tiền bảo hiểm (tối thiểu/tối đa)
+53|Mức phí để tham gia bảo hiểm
+54|Hợp đồng bảo hiểm có được chia lãi
+55|Khách hàng VIP
+56|Thay đổi sản phẩm bộ trợ
+57|Đi công tác nước ngoài có cần khai báo
+58|Thay đổi định kỳ đóng phí
+59|Quyền lợi rủi ro khi ở nước ngoài
+60|Quên nộp phí 
+61|quên đóng phí thời gian mất hiệu lực
+62|Hiệu lực hợp đồng bị cắt khi nộp tiền sát ngày ân hạn và công ty không nhận được tiền
+63|Chưa đóng phí gặp rủi ro trong thời gian ân hạn
+64|Chưa nộp phí bảo hiểm khi đã hết thời gian ân hạn hợp đồng
+65|Tạm dừng hợp đồng
+66|Chỉ định người thụ hưởng
+67|Quyền lợi chi trả bảo hiểm cho người thụ hưởng khi có rủi ro
+68|Cách giải quyết nếu cả người thụ hưởng và người mua bảo hiểm đều gặp rủi ro?
+69|Thủ tục giải quyết rủi ro
+70|Mắc bệnh thuộc phạm vi loại trừ sau khi đã có hợp đồng bảo hiểm
+71|Mất khả năng nộp phí
+72|nghĩa vụ nộp thuế ở nước ngoài phải khai báo
+73|Quyền lợi khi kết thúc hợp đồng
+74|Hết quyền lợi được bảo hiểm
+75|Tuổi tham gia bảo hiểm
