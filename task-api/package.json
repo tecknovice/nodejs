@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node src/index.js",
     "dev": "env-cmd -f ./config/dev.env nodemon src/index.js",
+    "debug": "env-cmd -f ./config/dev.env node --inspect src/index.js",
     "test": "env-cmd -f ./config/test.env jest --watch"
   },
   "jest": {
@@ -22,6 +22,7 @@
     "mongodb": "^3.2.7",
     "mongoose": "^5.6.3",
     "multer": "^1.4.1",
+    "node-mailjet": "^3.3.1",
     "sharp": "^0.22.1",
     "validator": "^11.1.0"
   },

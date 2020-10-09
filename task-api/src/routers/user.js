@@ -4,7 +4,7 @@ const multer = require('multer')
 const sharp = require('sharp')
 const auth = require('../middleware/auth')
 const User = require('../models/user')
-const {sendWelcomeEmail, sendCancelationEmail} = require('../emails/account')
+const {sendWelcomeEmail, sendCancelationEmail} = require('../emails/sendgrid')
 
 router.post('/users', async (req, res) => {
     const user = new User(req.body)
