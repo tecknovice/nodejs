@@ -2,9 +2,8 @@
   "name": "typeorm-getting-started",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "start":"tsc && dist/index.js",
+    "start": "ts-node src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -16,6 +15,7 @@
   },
   "devDependencies": {
     "@types/node": "^14.14.7",
+    "ts-node": "^9.0.0",
     "typescript": "^4.0.5"
   }
 }

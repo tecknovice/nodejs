@@ -4,22 +4,22 @@ import {Entity, Column, PrimaryGeneratedColumn} from "typeorm";
 export class Photo {
 
     @PrimaryGeneratedColumn()
-    id: number;
+    id!: number;
 
     @Column({
         length: 100
     })
-    name: string;
+    name!: string;
 
     @Column("text")
-    description: string;
+    description!: string;
 
     @Column()
-    filename: string;
+    filename!: string;
 
     @Column("double")
-    views: number;
+    views!: number;
 
     @Column()
-    isPublished: boolean;
+    isPublished!: boolean;
 }

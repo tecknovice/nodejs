@@ -1,6 +1,4 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.default = {
+{
     "type": "mysql",
     "host": "localhost",
     "port": 3306,
@@ -10,13 +8,12 @@ exports.default = {
     "synchronize": true,
     "logging": false,
     "entities": [
-        "src/entity/**/*.ts"
+       "src/entity/**/*.ts"
     ],
     "migrations": [
-        "src/migration/**/*.ts"
+       "src/migration/**/*.ts"
     ],
     "subscribers": [
-        "src/subscriber/**/*.ts"
+       "src/subscriber/**/*.ts"
     ]
-};
-//# sourceMappingURL=ormconfig.js.map
+ }
