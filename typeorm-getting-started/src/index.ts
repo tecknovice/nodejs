@@ -15,6 +15,9 @@ async function demo() {
 
     console.log("Photo has been saved");
 
+    let savedPhotos = await connection.manager.find(Photo);
+    console.log("All photos from the db: ", savedPhotos);
+
     connection.close();
 }
 
