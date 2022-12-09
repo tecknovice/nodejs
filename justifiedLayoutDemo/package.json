@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "image-size": "^0.7.3",
     "justified-layout": "^2.1.1"
   }
